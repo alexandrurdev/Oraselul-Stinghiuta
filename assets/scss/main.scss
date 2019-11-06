@@ -1,5 +1,10 @@
 // incl global styling
 
+html,
+body {
+	overflow-x: hidden;
+}
+
 $primaryColor: #7b5837;
 $secondaryColor: #56d47e;
 $black: #333333;
@@ -411,7 +416,13 @@ footer {
 	}
 
   .hero-wrapper .text h1, .hero-wrapper .text h2 {
-  	font-size: 65px;
+  	font-size: 55px;
+  }
+
+  .about-us {
+  	p.w-50 {
+    	width: 100% !important;
+	}
   }
 
   .dream-come-true .flex-container {

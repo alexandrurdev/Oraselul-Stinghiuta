@@ -1,2 +1,2 @@
 <!-- start scss compiler & minify -->
-sass --watch main.scss:main.css --style compressed
+<!-- sass --watch main.scss:main.css --style compressed -->
